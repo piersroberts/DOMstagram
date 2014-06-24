@@ -8,3 +8,7 @@ Collection of bookmarklets which will eventually be built in to a Chrome extensi
 [Snapshot DOM](javascript:localStorage.setItem("snapshot", document.documentElement.innerHTML))
 
 [Restore DOM](javascript:document.documentElement.innerHTML = localStorage.getItem("snapshot")
+
+<a href="javascript:function my_bookmarklet()
+                {alert('Hello World');}
+                my_bookmarklet();">Hello</a>
